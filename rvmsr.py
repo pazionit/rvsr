@@ -143,7 +143,7 @@ class Util:
 		for element in filtered_haystack:
 			if Util.xpathNotNone(element, 'name') == closest_matching_name:
 				closest_matching_uuid = element.get('id')
-			break
+				break
 
 		return closest_matching_uuid
 
